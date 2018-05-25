@@ -1,0 +1,8 @@
+spring: 
+  cloud: 
+    config: 
+      name: microservicecloud-config-eureka-client     #闇€瑕佷粠github涓婅鍙栫殑璧勬簮鍚嶇О锛屾敞鎰忔病鏈墆ml鍚庣紑鍚?
+      profile: dev 
+      label: master 
+      uri: http://config-3344.com:3344      #SpringCloudConfig鑾峰彇鐨勬湇鍔″湴鍧€
+
